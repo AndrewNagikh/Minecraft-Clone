@@ -1,0 +1,13 @@
+/* eslint-disable import/prefer-default-export */
+import React from 'react';
+import { useStore } from '../hooks/useStore';
+import { Cube } from './Cube';
+
+export function Cubes() {
+  const [cubes] = useStore((state) => [
+    state.cubes,
+  ]);
+  return cubes.map(({ key, pos, texture }) => (
+    <Cube key={key} position={pos} texture={texture} />
+  ));
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Minecraft-Clone/static/css/main.f4494157.css",
+    "main.js": "/Minecraft-Clone/static/js/main.bdc8af34.js",
+    "index.html": "/Minecraft-Clone/index.html",
+    "main.f4494157.css.map": "/Minecraft-Clone/static/css/main.f4494157.css.map",
+    "main.bdc8af34.js.map": "/Minecraft-Clone/static/js/main.bdc8af34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4494157.css",
+    "static/js/main.bdc8af34.js"
+  ]
+}

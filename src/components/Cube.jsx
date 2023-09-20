@@ -31,6 +31,7 @@ export function Cube({ position, texture }) {
         e.stopPropagation();
         const clickedFace = Math.floor(e.faceIndex / 2);
         const [x, y, z] = ref.current.position;
+        console.log(e)
         if (e.altKey) {
           removeCube(x, y, z);
           return;
